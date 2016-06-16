@@ -1,0 +1,10 @@
+/* Custom Styles */
+.uk-navbar {
+  padding: 0.5em;
+}
+#main-wrapper {
+  padding: 25px;
+}
+.uk-thumbnail {
+  border: 0;
+}
