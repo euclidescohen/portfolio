@@ -6,16 +6,18 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Euclides Cohen | Web Designer</title>
+        <title>Euclides Cohen | Web Consultant</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
         <link rel="stylesheet" href="css/uikit.css">
         <link rel="stylesheet" href="css/styles.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js"></script>
+        <link rel="stylesheet" href="css/slidenav.min.css">
+        <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
         <script src="js/uikit.js"></script>
-        <script src="js/offcanvas.js"></script>
+        <script src="js/lightbox.min.js"></script>
 
     </head>
     <body>
@@ -26,11 +28,10 @@
         <!-- Website content starts -->
         <header>
           <div class="uk-width-1-1 uk-container-center">
-            <nav class="uk-navbar">
+            <nav class="uk-navbar uk-container uk-container-center">
                 <ul class="uk-navbar-nav">
                     <li><a href="">Home</a></li>
-                    <li class"uk-navbar-flip"><a href="">About</a></li>
-                    <li class"uk-navbar-flip"><a href="">Contact</a></li>
+                    <li class"uk-navbar-flip"><a href="about.html">About</a></li>
                 </ul>
             </nav>
           </div>
@@ -38,7 +39,7 @@
         <div id="main-wrapper" class="uk-container uk-container-center">
         <section>
           <div class="uk-container-center">
-            <h1>Euclides Cohen is a creative focused on Web Design, Web Development and IT. Based in Panama city, Panama.</h1>
+            <h1>Euclides Cohen is a creative focused on Web Design, Development and UX.<br/> Based in Panama city, Panama.</h1>
           </div>
         </section>
         <section>
@@ -46,33 +47,42 @@
             <div class="uk-width-medium-1-2 uk-margin-bottom">
               <div class="uk-thumbnail uk-overlay-hover">
                 <figure class="uk-overlay">
-                  <img width="600" height="400" src="img/portfolio-item.jpg" alt="portfolio item">
+                  <img width="600" height="500" src="img/portfolio-item2.jpg" alt="portfolio item">
                     <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
-                      <a class="uk-position-cover" href="#"></a>
+                      <a class="uk-position-cover" href="img/portfolio-item2.jpg" data-uk-lightbox="{group:'group1'}" title="Ben Sherman"></a>
                 </figure>
               </div>
             </div>
             <div class="uk-width-medium-1-2 uk-margin-bottom">
               <div class="uk-thumbnail uk-overlay-hover">
                 <figure class="uk-overlay">
-                  <img width="600" height="400" src="img/portfolio-item.jpg" alt="portfolio item">
+                  <img width="600" height="500" src="img/portfolio-item3.jpg" alt="portfolio item">
                     <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
-                      <a class="uk-position-cover" href="#"></a>
+                      <a class="uk-position-cover" href="img/portfolio-item3.jpg" data-uk-lightbox="{group:'group1'}" title="Oh-Chef"></a>
                 </figure>
               </div>
             </div>
             <div class="uk-width-medium-1-2 uk-margin-bottom">
               <div class="uk-thumbnail uk-overlay-hover">
                 <figure class="uk-overlay">
-                  <img width="600" height="400" src="img/portfolio-item.jpg" alt="portfolio item">
+                  <img width="600" height="500" src="img/portfolio-item.jpg" alt="portfolio item">
                     <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
-                      <a class="uk-position-cover" href="#"></a>
+                      <a class="uk-position-cover" href="img/portfolio-item.jpg" data-uk-lightbox="{group:'group1'}" title="Tanja Cosmetics"></a>
+                </figure>
+              </div>
+            </div>
+            <div class="uk-width-medium-1-2 uk-margin-bottom">
+              <div class="uk-thumbnail uk-overlay-hover">
+                <figure class="uk-overlay">
+                  <img width="600" height="500" src="img/portfolio-item4.jpg" alt="portfolio item">
+                    <figcaption class="uk-overlay-panel uk-overlay-icon uk-overlay-background uk-overlay-fade"></figcaption>
+                      <a class="uk-position-cover" href="img/portfolio-item4.jpg" data-uk-lightbox="{group:'group1'}" title="Raw Shorts"></a>
                 </figure>
               </div>
             </div>
           </div>
         </section>
       </div> <!-- End of the Main Wrapper -->
-
+      <footer></footer>
     </body>
 </html>

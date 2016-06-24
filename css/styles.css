@@ -1,4 +1,12 @@
 /* Custom Styles */
+p {
+  font-size: 1.2em;
+  line-height: 2;
+}
+li {
+  font-size: 1.2em;
+  line-height: 2;
+}
 .uk-navbar {
   padding: 0.5em;
 }
@@ -7,4 +15,7 @@
 }
 .uk-thumbnail {
   border: 0;
+}
+.uk-overlay img {
+  max-height: 500px;
 }
